@@ -12,7 +12,7 @@ from .erc.erc20.arbitrary_send_erc20_no_permit import ArbitrarySendErc20NoPermit
 from .erc.erc20.arbitrary_send_erc20_permit import ArbitrarySendErc20Permit
 from .functions.suicidal import Suicidal
 #custom detectors
-from .functions.event_signature_mismatch import EventSignatureMismatch
+# from .functions.event_signature_mismatch import EventSignatureMismatch
 
 # from .functions.complex_function import ComplexFunction
 from .reentrancy.reentrancy_benign import ReentrancyBenign
